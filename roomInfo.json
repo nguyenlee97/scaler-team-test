@@ -3,20 +3,20 @@
     {
       "roomType": "Single",
       "sleepGuests": 1,
-      "numberOfRooms": 0,
-      "price": 21
+      "numberOfRooms": 2,
+      "price": 30
     },
     {
       "roomType": "Double",
       "sleepGuests": 2,
-      "numberOfRooms": 0,
-      "price": 75
+      "numberOfRooms": 3,
+      "price": 50
     },
     {
       "roomType": "Family",
       "sleepGuests": 4,
       "numberOfRooms": 1,
-      "price": 42
+      "price": 85
     }
   ]
 }
