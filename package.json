@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.9.1"
+  },
+  "scripts": {
+    "start": "tsc hotelReservation.ts && node hotelReservation.js"
+  }
+}
