@@ -50,12 +50,12 @@ function findReservationOption(guests) {
         return false;
     }
     else {
-        // var output = "";
-        // for (var i = 0; i < numRoomType; i++) {
-        //     var roomType = roomInfo[i].roomType;
-        //     output += "".concat(roomType, " ").repeat(roomTracking[guests][i]);
-        // }
-        // console.log("".concat(output.trim(), " - $").concat(dp[guests]));
+        var output = "";
+        for (var i = 0; i < numRoomType; i++) {
+            var roomType = roomInfo[i].roomType;
+            output += "".concat(roomType, " ").repeat(roomTracking[guests][i]);
+        }
+        console.log("".concat(output.trim(), " - $").concat(dp[guests]));
         console.log(dp[guests])
         return true;
     }
